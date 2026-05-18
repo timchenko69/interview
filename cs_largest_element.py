@@ -12,13 +12,7 @@ Example:
 from typing import List
 
 def kth_largest(nums: List[int], k: int) -> int:
-    # TODO: implement
-    ls = sorted(nums)
-   # b = {index: value for index, value in enumerate(ls)}
-
-    return ls[-k]
-    raise NotImplementedError
-
+    return null
 
 if __name__ == "__main__":
     tests = [
